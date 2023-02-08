@@ -1,0 +1,24 @@
+{
+  "name": "graphy-minus-repro",
+  "version": "",
+  "description": "",
+  "repository": "",
+  "license": "UNLICENSED",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint app.js lib/*",
+    "release": "release-it"
+  },
+  "author": {
+    "email": "michael.dierick@redpencil.io",
+    "name": "redpencil.io",
+    "url": "https://redpencil.io"
+  },
+  "scripts": {
+    "test": "node app.js"
+  },
+  "dependencies": {
+    "graphy": "==4.3.3"
+  }
+}
